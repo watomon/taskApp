@@ -80,50 +80,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oz9-zJ-E8n">
-                                <rect key="frame" x="16" y="83" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkv-Qn-Kd5">
+                                <rect key="frame" x="10" y="74" width="355" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0m8-Lk-525">
-                                <rect key="frame" x="16" y="164" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HK-FG-srg">
+                                <rect key="frame" x="10" y="145" width="355" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-mP-7sf">
-                                <rect key="frame" x="16" y="118" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nZ8-I4-COP">
+                                <rect key="frame" x="10" y="105" width="355" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rap-dq-NhN">
-                                <rect key="frame" x="16" y="193" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qqI-3q-Wc7">
+                                <rect key="frame" x="10" y="176" width="355" height="120"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="okh-sU-lzT"/>
+                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="hiQ-4w-NGG">
-                                <rect key="frame" x="0.0" y="351" width="375" height="162"/>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XnU-FQ-3LH">
+                                <rect key="frame" x="0.0" y="386" width="375" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <date key="date" timeIntervalSinceReferenceDate="540187150.62503397">
-                                    <!--2018-02-13 03:59:10 +0000-->
+                                <date key="date" timeIntervalSinceReferenceDate="540188435.52268803">
+                                    <!--2018-02-13 04:20:35 +0000-->
                                 </date>
                             </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7HK-FG-srg" firstAttribute="leading" secondItem="dig-FF-vwX" secondAttribute="leading" constant="10" id="5U1-Ew-3sK"/>
+                            <constraint firstItem="qqI-3q-Wc7" firstAttribute="leading" secondItem="dig-FF-vwX" secondAttribute="leading" constant="10" id="8tU-qF-TQQ"/>
+                            <constraint firstItem="nZ8-I4-COP" firstAttribute="top" secondItem="lkv-Qn-Kd5" secondAttribute="bottom" constant="10" id="Ck9-5n-aHV"/>
+                            <constraint firstItem="nZ8-I4-COP" firstAttribute="leading" secondItem="dig-FF-vwX" secondAttribute="leading" constant="10" id="KTg-j3-bTc"/>
+                            <constraint firstItem="dig-FF-vwX" firstAttribute="trailing" secondItem="nZ8-I4-COP" secondAttribute="trailing" constant="10" id="Kx4-Wi-DoO"/>
+                            <constraint firstItem="dig-FF-vwX" firstAttribute="trailing" secondItem="lkv-Qn-Kd5" secondAttribute="trailing" constant="10" id="N1B-pI-ddN"/>
+                            <constraint firstItem="dig-FF-vwX" firstAttribute="trailing" secondItem="qqI-3q-Wc7" secondAttribute="trailing" constant="10" id="We4-wC-JOX"/>
+                            <constraint firstItem="lkv-Qn-Kd5" firstAttribute="top" secondItem="dig-FF-vwX" secondAttribute="top" constant="10" id="Yxb-Xh-Q2u"/>
+                            <constraint firstItem="7HK-FG-srg" firstAttribute="top" secondItem="nZ8-I4-COP" secondAttribute="bottom" constant="10" id="bOe-Py-jf7"/>
+                            <constraint firstItem="qqI-3q-Wc7" firstAttribute="top" secondItem="7HK-FG-srg" secondAttribute="bottom" constant="10" id="k0b-x2-vdS"/>
+                            <constraint firstItem="dig-FF-vwX" firstAttribute="trailing" secondItem="7HK-FG-srg" secondAttribute="trailing" constant="10" id="scf-5b-Vmo"/>
+                            <constraint firstItem="lkv-Qn-Kd5" firstAttribute="leading" secondItem="dig-FF-vwX" secondAttribute="leading" constant="10" id="u9h-bZ-Q3C"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dig-FF-vwX"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="33L-TP-Y9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-28" y="508"/>
+            <point key="canvasLocation" x="74.400000000000006" y="776.76161919040487"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xYM-n3-oal">

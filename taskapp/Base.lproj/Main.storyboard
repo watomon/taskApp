@@ -133,10 +133,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dig-FF-vwX"/>
                     </view>
+                    <connections>
+                        <outlet property="contentsTextView" destination="qqI-3q-Wc7" id="FZV-pR-aeQ"/>
+                        <outlet property="datePicker" destination="XnU-FQ-3LH" id="qdM-2J-dnS"/>
+                        <outlet property="titleTextField" destination="nZ8-I4-COP" id="3qA-G4-GUc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="33L-TP-Y9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74.400000000000006" y="776.76161919040487"/>
+            <point key="canvasLocation" x="-130" y="391"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xYM-n3-oal">
@@ -154,21 +159,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WUE-3x-0ah" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32" y="391.304347826087"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="6Q4-lC-Dol">
-            <objects>
-                <viewController id="qY9-3Q-8T7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CwN-mV-rAV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="LTv-NS-T5I"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nqo-sf-ocl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+            <point key="canvasLocation" x="-1663" y="264"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
